@@ -1,0 +1,291 @@
+.controls span {
+display:inline-block;
+}
+
+.progressdiv {
+    /* position: absolute; */
+    /* width: 75%; */
+    /* margin-top: 0%; */
+    /* top: 29%; */
+    position: absolute;
+    width: 70%;
+    height: 10%;
+    top: 28%;
+    left: 15%;
+    background-color: #000;
+    border-radius:10px;
+}
+
+.progressBar
+{
+    background-color: #333;
+    border: 0 none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.progress-bar span 
+{
+    color:red;
+    background-color: red;
+}
+
+.progress-value {
+	padding: 0px 5px;
+	line-height: 20px;
+	margin-left: 5px;
+	font-size: .8em;
+	color: white;
+	height: 100%;
+	float: right;
+}
+
+.spanprogress {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    /* top: 28%; */
+    /* left: 15%; */
+    background-color: #FF9900;
+    border-radius:10px;
+}
+
+.progressbutton {
+    background-image: url("../images/fullscreenbutton.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 10%;
+    height: 20%;
+    position: absolute;
+    right: 5%;
+    width: 6%;
+}
+
+.video-player {
+   background-color:#262626;
+   width: 70%;
+   border-radius:10px;
+   position: relative; 
+   /*overflow: hidden;*/
+   z-index:1;
+}
+
+.paused {
+	background-image: url(../images/playbutton.png);
+    position: absolute;
+    width: 5%;
+    height: 28%;
+    top: 43%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+
+
+.play {
+	background-image: url(../images/pausebutton.png);
+    position: absolute;
+    width: 5%;
+    height: 28%;
+    top: 43%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+
+}
+
+.controls 
+{
+	position: absolute;
+    width: 100%;
+    height: 19%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #262626;
+    z-index: 10000;
+    margin-top: -19%;
+}
+
+.title {
+    color: #CCCCCC;
+    position: absolute;
+    left:0;
+    right:0;
+    top:4%;
+    font-size: 100%;
+    text-align: center;
+}
+
+
+
+.videoduration {
+    color: #CCCCCC;
+    position: absolute;
+    left: 5%;
+    /* right: 0; */
+    top: 26%;
+    font-size: 0.5vw;
+    /* text-align: center; */
+}
+
+
+.videototal {
+    color: #CCCCCC;
+    position: absolute;
+    right: 5%;
+    /* right: 0; */
+    top: 26%;
+    font-size: 1vh;
+    /* text-align: center; */
+}
+
+.videoframe 
+{
+  margin: auto;
+  margin-bottom:19%;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+/*** SOUND + VOLUME CSS ***/
+/* sound */
+div.sound {
+	width: 10%;
+    height: 160%;
+    margin-top: -2%;
+    margin-left: -17%;
+    top: 80%;
+    cursor: pointer;
+    background: url(../images/volumeupbutton.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.muted{
+    width: 10%;
+    height: 160%;
+    margin-top: -2%;
+    margin-left: -17%;
+    top: 80%;
+    cursor: pointer;
+	background:url(../images/volumeoff.png);
+    background-size: 100% 100%;
+}
+
+/* volume */
+.volume{
+	position: absolute;
+    right: 0;
+    left: 0;
+    cursor: pointer;
+    width: 40%;
+    height: 10%;
+    background: #333;
+    margin: auto;
+    top: 82%;
+     border-radius:10px;
+    
+}
+.volume .volumeCover{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10;
+	width:100%;
+	height:100%;
+     border-radius:10px;
+}
+.volume .volumeBar{
+	display:block;
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#FF9900;
+	z-index:5;
+     border-radius:10px;
+}
+
+
+.volume .volumeoff{
+	background-color:#333;
+}
+.soundbutton {
+    position: absolute;
+    background-image: url(../images/progressbutton.png);
+    width: 0.5em;
+    height: 0.5em;
+    background-size: 100% 100%;
+    top: 0;
+    /* left: 15%; */
+    margin-top: -3%;
+    z-index: 20;
+}
+
+::-webkit-media-controls {
+  display:none !important;
+}
+
+video::-webkit-media-controls {
+  display:none !important;
+}
+
+video::-webkit-media-controls-enclosure {
+  display:none !important;
+}
+
+#blanket {
+    background-color:#111;
+    opacity: 0.95;
+    *background:none;
+    position:fixed;
+    z-index: 9001;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+}
+
+#popUpDiv {
+    position: fixed;
+    background: url(pop-back.jpg) no-repeat;
+    width: 50%;
+    height: auto;
+    background-color: #262626;
+    left: 0;
+    right: 0;
+    top: 8%;
+    margin: 0 auto;
+    z-index: 9002;
+    border: 20px solid #262626;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+#closeDivLayer{
+    position: absolute;
+    top: -5%;
+    right: -4%;
+    width: 4%;
+    height: 4%;
+    z-index: 9099;
+    background-image: url(../images/close.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
