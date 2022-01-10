@@ -1,0 +1,45 @@
+#menuWrapper
+{
+    display:table-cell;
+    width: 17.6%;
+    background-image:url("../images/menuBgHtx.jpg");
+}
+
+#bottomMenu {
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    background:gray;
+    background-image:url("../images/menuBgHtxLaying.jpg");
+    background-size:100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 40px;
+    -moz-box-shadow: 0px 0px 10px #000;
+	-webkit-box-shadow: 0px 0px 10px #000;
+	box-shadow: 0px 0px 10px #000;
+    font-size: 0.7em;
+}
+
+#taskNumber {
+
+    position: relative;
+/* width: 205px; */
+color: #ffffff;
+/* margin-top: 100px; */
+/* text-align: center; */
+font-size: 0.35em;
+height: 20px;
+padding-top: 150px;
+margin-left: 11.2%;
+margin-right: 5%;
+}
+
+.subLinkActive a {
+
+    color:red;
+
+
+}
