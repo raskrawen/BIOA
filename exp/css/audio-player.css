@@ -1,0 +1,212 @@
+
+
+.audioprogressdiv {
+     /* position: absolute; */
+    /* width: 75%; */
+    /* margin-top: 0%; */
+    /* top: 29%; */
+    position: absolute;
+    width: 70%;
+    height: 10%;
+    top: 28%;
+    left: 15%;
+    background-color: #000;
+    border-radius:10px;
+}
+
+.audioprogressBar
+{
+     background-color: #333;
+    border: 0 none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.audioprogress-bar span 
+{
+    color:red;
+    background-color: red;
+}
+
+.audioprogress-value {
+	padding: 0px 5px;
+	line-height: 20px;
+	margin-left: 5px;
+	font-size: .8em;
+	color: white;
+	height: 18px;
+	float: right;
+}
+
+.audiospanprogress {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    /* top: 28%; */
+    /* left: 15%; */
+    background-color: #FF9900;
+    border-radius:10px;
+}
+
+
+.audio-player {
+   background-color:#262626;
+   border-radius:10px;
+   position: relative; 
+   overflow: hidden;
+   z-index:1;
+}
+
+.audiocontrols 
+{
+	position: absolute;
+    width: 100%;
+    height: 100px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #262626;
+    z-index: 10000;
+    margin-top: -100px;
+}
+.audiopaused {
+	background-image: url(../images/playbutton.png);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 43%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+
+
+.audioplay {
+	background-image: url(../images/pausebutton.png);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 43%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+
+.audiotitle {
+     color: #CCCCCC;
+    position: absolute;
+    left:0;
+    right:0;
+    top:4%;
+    font-size: 100%;
+    text-align: center;
+}
+
+
+
+.audioduration {
+    color: #CCCCCC;
+    position: absolute;
+    left: 5%;
+    /* right: 0; */
+    top: 26%;
+    /* text-align: center; */
+}
+
+
+.audiototal {
+     color: #CCCCCC;
+    position: absolute;
+    right: 5%;
+    /* right: 0; */
+    top: 26%;
+    /* text-align: center; */
+}
+
+/*** SOUND + VOLUME CSS ***/
+/* sound */
+div.audiosound {
+	width: 10%;
+    height: 160%;
+    margin-top: -2%;
+    margin-left: -17%;
+    top: 80%;
+    cursor: pointer;
+    background: url(../images/volumeupbutton.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.audiomuted{
+	width: 10%;
+    height: 160%;
+    margin-top: -2%;
+    margin-left: -17%;
+    top: 80%;
+    cursor: pointer;
+	background:url(../images/volumeoff.png);
+    background-size: 100% 100%;
+}
+
+/* volume */
+.audiovolume{
+	position: absolute;
+    right: 0;
+    left: 0;
+    cursor: pointer;
+    width: 40%;
+    height: 10%;
+    background: #333;
+    margin: auto;
+    top: 84%;
+     border-radius:10px;
+    
+}
+.audiovolume .audiovolumeCover{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10;
+	width:100%;
+	height:100%;
+     border-radius:10px;
+}
+.audiovolume .audiovolumeBar{
+	display:block;
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#FF9900;
+	z-index:5;
+    border-radius:10px;
+}
+
+
+.audiovolume .audiovolumeoff{
+	background-color:#333;
+}
+.audiosoundbutton {
+     position: absolute;
+    background-image: url(../images/progressbutton.png);
+    width: 0.5em;
+    height: 0.5em;
+    background-size: 100% 100%;
+    top: 0;
+    /* left: 15%; */
+    margin-top: -3%;
+    z-index: 20;
+}
