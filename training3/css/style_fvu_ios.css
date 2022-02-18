@@ -1,0 +1,47 @@
+
+
+#menuWrapper
+{
+    display:table-cell;
+    vertical-align: top;
+    width: 17.6% !important;
+    background-image:url("../images/menuBgFvu.jpg");
+    background-color:#1e65a7;
+}
+
+
+#bottomMenu {
+    position: fixed;
+    bottom:-5px;
+    width: 100%;
+    background:gray;
+    background-image:url("../images/menuBgFvuLaying.jpg");
+    background-size:100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 40px;
+    margin-bottom:-2px;
+    font-size: 0.8em;
+}
+
+
+@media (orientation : landscape)
+{
+	.PAGE
+	{
+		padding-top: 40px;
+	}
+}
+@media (orientation : portrait)
+{
+	.PAGE
+	{
+		padding-top: 45px;
+	}
+}
+
+body{
+	height: 105%;
+}
