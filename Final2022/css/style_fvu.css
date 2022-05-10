@@ -1,0 +1,26 @@
+
+
+#menuWrapper
+{
+    display:table-cell;
+    width: 17.6%;
+    background-image:url("../images/menuBgFvu.jpg");
+     background-size:100% 100%;
+}
+
+
+#bottomMenu {
+    position: absolute;
+    top: 96.5%;
+    width: 100%;
+    background:gray;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    background-image:url("../images/menuBgFvuLaying.jpg");
+    background-size:100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
